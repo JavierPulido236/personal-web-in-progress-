@@ -1,0 +1,70 @@
+html {
+ background-color: black;
+}
+
+.gym {
+  position: fixed;
+  width: 450px;
+  height: 400px;
+  left: 5px;
+  top: 60px;
+  
+}
+/* hobbies start */
+h1 {
+  position: relative;
+  color: white;
+  text-align: center;
+}
+/* hobbies end */
+
+/* staying active start */
+.stay {
+  position: relative;
+  color: white;
+  text-align: center;
+  top: 50px;
+}
+
+.weight {
+  position: relative;
+  color: white;
+  text-align: center;
+  top: 65px;
+}
+
+.weight2 {
+  position: relative;
+  color: white;
+  text-align: center;
+  top: 60px;
+}
+ /* staying active end */
+
+ .topnav {
+ position: relative;
+  overflow: hidden;
+ z-index: 2;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: grey;
+  color: white;
+}

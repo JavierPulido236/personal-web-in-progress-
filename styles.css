@@ -1,0 +1,83 @@
+html {
+  background-image: url("comp.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 150%;
+  color: white;
+}
+
+img {
+    position: fixed;
+    top: 180px;
+    left: 800px;
+}
+
+p {
+    position: relative;
+    top: 180px;
+    left: 0px;
+    text-align: center;
+    animation: fadeIn linear 5s;
+}
+
+.javier {
+  position: relative;
+  text-align: center;
+  top: 150px;
+  font-size: 50px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  animation: fadeIn linear 5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.welcome {
+  position: relative;
+  left: 0px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  animation: fadeIn linear 5s;
+}
+
+
+.intro {
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.topnav {
+    position: relative;
+    overflow: hidden;
+   
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: grey;
+    color: white;
+  }
